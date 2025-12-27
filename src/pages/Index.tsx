@@ -2,12 +2,33 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import { 
-  ArrowRight, Phone, MapPin, Globe, MessageSquare, Zap, 
-  MousePointerClick, Layers, Search, BarChart, Target, 
-  Linkedin, Twitter, Instagram, CheckCircle, Star, XCircle, TrendingUp,
-  Facebook, ExternalLink, ShieldCheck, Activity, Award, Rocket, Tool
+import {
+  ArrowRight,
+  Phone,
+  MapPin,
+  Globe,
+  MessageSquare,
+  Zap,
+  MousePointerClick,
+  Layers,
+  Search,
+  BarChart,
+  Target,
+  Linkedin,
+  Twitter,
+  Instagram,
+  CheckCircle,
+  Star,
+  XCircle,
+  TrendingUp,
+  Facebook,
+  ExternalLink,
+  ShieldCheck,
+  Activity,
+  Award,
+  Rocket
 } from "lucide-react";
+
 
 const Index = () => {
   const CONTACT_INFO = {
