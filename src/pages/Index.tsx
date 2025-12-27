@@ -35,21 +35,22 @@ const Index = () => {
                     Elite Local SEO Architecture
                   </p>
                 </div>
-                <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-[0.9] mb-8 text-slate-950 uppercase">
-                  RANKING <br />
-                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-cyan-600 to-slate-900">DOMINANCE.</span>
+                <h1 className="text-4xl md:text-5xl font-black tracking-tighter leading-[0.9] mb-8 text-slate-950 uppercase">
+                 Local SEO Expert <br />
+                  <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 via-cyan-600 to-slate-900">Helping Businesses Rank on Google Worldwide .</span>
                 </h1>
-                <p className="text-slate-600 text-lg md:text-xl max-w-xl leading-relaxed font-medium mb-10">
-                  Don't settle for page 2. Call <span className="text-black font-bold">{CONTACT_INFO.phone}</span> to architect a digital fortress that forces Google to put you first.
+                <p className="text-slate-600 text-lg md:text-xl max-w-xl leading-relaxed font-small mb-10">
+                I help *local & service-based businesses across the world* dominate Google Search and Google Maps with proven Local SEO strategies that drive *real calls, leads, and customers*.
+               
                 </p>
                 <div className="flex flex-wrap gap-6">
                   <a href={CONTACT_INFO.gmb} target="_blank" rel="noreferrer">
                     <Button className="h-16 px-10 bg-slate-950 hover:bg-cyan-600 text-white font-black text-sm rounded-full transition-all group">
-                      VIEW MAP PROFILE <MapPin className="ml-2 group-hover:animate-bounce" />
+                    Get a Free Local SEO Audit<MapPin className="ml-2 group-hover:animate-bounce" />
                     </Button>
                   </a>
                   <div className="flex items-center gap-4 text-slate-400 border-l border-slate-200 pl-6">
-                    <p className="text-[10px] uppercase tracking-widest leading-tight">Expert in <br /><span className="text-slate-900 font-bold">GMB Radius Expansion</span></p>
+                    <p className="text-[10px] uppercase tracking-widest leading-tight">Start Ranking<br /><span className="text-slate-900 font-bold"> Globally Today</span></p>
                   </div>
                 </div>
               </motion.div>
@@ -101,16 +102,16 @@ const Index = () => {
         <div className="container mx-auto px-8">
           <div className="text-center mb-24">
             <p className="text-cyan-600 font-black uppercase tracking-[0.3em] text-xs mb-4">The Strategy</p>
-            <h2 className="text-5xl md:text-7xl font-black tracking-tighter uppercase">Execution <span className="text-slate-400">Blueprint.</span></h2>
+            <h2 className="text-5xl md:text-6xl font-black tracking-tighter uppercase">Local SEO <span className="text-slate-400">Solutions for Businesses Around the World</span></h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { title: "Grid Analysis", desc: "Mapping your current ranking across every square mile of the city.", icon: <Search /> },
-              { title: "Signal Injection", desc: "Feeding Google high-authority residential data points.", icon: <Zap /> },
-              { title: "CTR Mastery", desc: "Simulating organic user behavior to boost trust scores.", icon: <MousePointerClick /> },
-              { title: "Geo-Tagging", desc: "Embedding physical location data into every digital asset.", icon: <MapPin /> },
-              { title: "Review Velocity", desc: "Accelerating natural feedback loops to crush competitors.", icon: <Star /> },
-              { title: "Radius Blast", desc: "Forcing your map pin to show up in neighboring suburbs.", icon: <Rocket /> },
+              { title: "Local service providers", desc: "I help local service providers rank higher on Google and Google Maps worldwide, so they get more calls, leads, and ready-to-hire customers.", icon: <Search /> },
+              { title: "Mobile & home-service", desc: "I provide Local SEO for mobile and home-service businesses across the world, helping them dominate “near me” searches and increase bookings.", icon: <Zap /> },
+              { title: "Local Shops", desc: "I optimize local shops for Google Search and Maps globally, increasing foot traffic, visibility, and in-store customers.", icon: <MousePointerClick /> },
+              { title: "Multi-Location & Franchise Businesses", desc: "I deliver scalable Local SEO solutions for multi-location and franchise businesses worldwide, ensuring each location ranks strongly in its local market.", icon: <MapPin /> },
+              { title: "Service Area Bussiness", desc: "I help service-area businesses rank without a physical address by optimizing Google Business Profiles for wider city and regional coverage.", icon: <Star /> },
+              { title: "International & Global Bussiness ", desc: "I provide global Local SEO strategies for international businesses, targeting multiple countries, cities, and local markets with precision..", icon: <Rocket /> },
             ].map((step, i) => (
               <div key={i} className="bg-white p-10 border border-slate-200 hover:border-cyan-500 transition-all group">
                 <div className="text-cyan-600 mb-6 group-hover:scale-110 transition-transform">{step.icon}</div>
