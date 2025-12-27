@@ -15,42 +15,42 @@ const Services = () => {
   const services = [
     {
       icon: MapPin,
-      title: "GMB Optimization",
+      title: "Google Business Profile Optimization",
       category: "Foundational",
       description: "Complete overhaul of your Google Business Profile to maximize signal strength for Google's algorithms.",
       features: ["Profile Verification", "Category Optimization", "Media Geo-tagging", "A/B Tested Descriptions"],
     },
     {
       icon: TrendingUp,
-      title: "Local 3-Pack Dominance",
+      title: "International Local Keyword Research",
       category: "Growth",
       description: "Aggressive ranking strategies designed to push your business into the top 3 spots where 70% of clicks happen.",
       features: ["Proximity Mapping", "Hyper-local SEO", "Map Embed Strategy", "Signal Stacking"],
     },
     {
       icon: Globe,
-      title: "Citation Authority",
+      title: "Website Local SEO Optimizationy",
       category: "Authority",
       description: "Building a bulletproof ecosystem of business mentions across premium industry-specific directories.",
       features: ["Premium Submissions", "Audit & Cleanup", "Duplicate Elimination", "Global & Niche NAP"],
     },
     {
       icon: Shield,
-      title: "Suspension Recovery",
+      title: "Local Citations & Authority Building",
       category: "Defense",
       description: "Expert handling of GMB suspensions, algorithmic penalties, and malicious competitor spam removal.",
       features: ["Reinstatement Appeals", "Spam Fighting", "POIs Validation", "Security Hardening"],
     },
     {
       icon: MessageSquare,
-      title: "Reputation Engineering",
+      title: "Backilinks",
       category: "Growth",
       description: "Converting your customers into a marketing force with strategic review generation and management.",
       features: ["Review Funnel Setup", "Response Automation", "Sentiment Analysis", "Trust Building"],
     },
     {
       icon: Activity,
-      title: "Competitor Intelligence",
+      title: "On Page SEO",
       category: "Foundational",
       description: "In-depth analysis of your competitors' backlinks, citations, and ranking secrets to outmaneuver them.",
       features: ["Gap Analysis", "Backlink Audits", "Ranking Benchmarks", "Strategy Theft Prevention"],
@@ -87,9 +87,9 @@ const Services = () => {
               <Zap size={12} className="fill-cyan-600" />
               Strategic Arsenal v2.0
             </span>
-            <h1 className="text-6xl md:text-[8rem] font-[950] tracking-tighter uppercase mb-8 leading-[0.85]">
-              PRECISION <br />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-cyan-600 italic font-serif lowercase font-normal">Local SEO</span> TOOLS.
+            <h1 className="text-3xl md:text-[6rem] font-[950] tracking-tighter uppercase mb-8 leading-[0.85]">
+            Local SEO Services for <br />
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-slate-900 to-cyan-600 italic font-serif lowercase font-normal">Worldwide Businesses</span> 
             </h1>
             <p className="text-slate-500 text-lg md:text-2xl max-w-3xl mx-auto font-medium leading-relaxed">
               We don't just "rank" businesses. We engineer local market dominance through tactical GMB optimization and technical SEO excellence.
@@ -142,8 +142,9 @@ const Services = () => {
       <section className="py-32 bg-white">
         <div className="container mx-auto px-8">
           <div className="max-w-4xl mx-auto mb-20 text-center">
-            <h2 className="text-4xl md:text-6xl font-[950] tracking-tighter uppercase mb-6">The Success Protocol</h2>
-            <p className="text-slate-500 font-medium">Four stages of taking your business from invisible to indispensable.</p>
+            <h2 className="text-4xl md:text-5xl font-[950] tracking-tighter uppercase mb-6">Why Choose Me as Your Global Local SEO Expert?</h2>
+            <p className="text-slate-500 font-medium">I don’t sell rankings — I build *sustainable local visibility* that grows your business month after month.
+            </p>
           </div>
           <div className="grid md:grid-cols-4 gap-4">
             {processSteps.map((step, i) => (
